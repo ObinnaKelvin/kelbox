@@ -7,7 +7,7 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
-.home, .reports, .products {
+.reports, .products {
   display: flex;
   height: 90vh;
   align-items: center;

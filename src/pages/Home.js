@@ -4,12 +4,19 @@ import sales from '../img/sales.png';
 import revenue from '../img/revenue.png';
 import instock from '../img/instock.png';
 import orders from '../img/orders.png';
+import products from '../img/products.png';
+import stockvalue from '../img/stockvalue.png';
+import zerostock from '../img/zerostock.png';
+import weather from '../img/weather.png';
+import Chart from '../components/Chart';
+import TopSelling from '../components/TopSelling';
 
 function Home() {
     return (
         <div className="home">
             <div className="home__title">
-                <p>Hi, Goodmorning!</p>
+                <p className="p1">Hi Joshua, <em>Good morning!</em></p>
+                <p>Here is what is happening with your store today.</p>
             </div>
             <div className="home__levelOne">
                 <div className="home__levelOne__sales">
@@ -31,7 +38,7 @@ function Home() {
                         <div className="imageHolder">
                             <img src={revenue} alt="revenue icon"/>
                         </div>
-                        <div className="details"><h2>8,475</h2>Revenue</div>
+                        <div className="details"><h2>&#8358;1,008,475</h2>Revenue</div>
                     </div>
                 </div>
                 <div className="home__levelOne__inStock">
@@ -42,7 +49,7 @@ function Home() {
                         <div className="imageHolder">
                             <img src={instock} alt="in stock icon"/>
                         </div>
-                        <div className="details"><h2>8,475</h2>In Stock</div>
+                        <div className="details"><h2>700,475</h2>In Stock</div>
                     </div>
                 </div>
                 <div className="home__levelOne__orders">
@@ -53,10 +60,70 @@ function Home() {
                         <div className="imageHolder">
                             <img src={orders} alt="revenue icon"/>
                         </div>
-                        <div className="details"><h2>8,475</h2>Orders</div>
+                        <div className="details"><h2>208,475</h2>Orders</div>
                     </div>
                 </div>
             </div>
+
+            <div className="home__levelOne">
+                <div className="home__levelOne__products">
+                    <div className="head">
+                        <div className="label"><small>Currently</small></div>                    
+                    </div>
+                    <div className="body">
+                        <div className="imageHolder">
+                            <img src={products} alt="products icon"/>
+                        </div>
+                        <div className="details"><h2>25</h2>Products</div>
+                    </div>
+                </div>
+                <div className="home__levelOne__stockvalue">
+                    <div className="head">
+                        <div className="label"><small>Currently</small></div>                    
+                    </div>
+                    <div className="body">
+                        <div className="imageHolder">
+                            <img src={stockvalue} alt="stockvalue icon"/>
+                        </div>
+                        <div className="details"><h2>&#8358;11,258,475</h2>Stock Value</div>
+                    </div>
+                </div>
+                <div className="home__levelOne__zeroStock">
+                    <div className="head">
+                        <div className="label"><small>Currently</small></div>                    
+                    </div>
+                    <div className="body">
+                        <div className="imageHolder">
+                            <img src={zerostock} alt="zero stock icon"/>
+                        </div>
+                        <div className="details"><h2>0</h2>Zero Stock</div>
+                    </div>
+                </div>
+                <div className="home__levelOne__weather">
+                    <div className="head">
+                        <div className="label"><small>Weather</small></div>                    
+                    </div>
+                    <div className="body">
+                        <div className="imageHolder">
+                            <img src={weather} alt="weather icon"/>
+                        </div>
+                        <div className="details">
+                            <h2>20 &#176;c</h2>
+                            <small>Light rain showers</small>
+                            Lagos
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="home__leveltwo">
+                <Chart />
+            </div>
+
+            <div className="home__levelthree">
+                <TopSelling />
+            </div>
+        
         </div>
     )
 }

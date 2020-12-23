@@ -22,17 +22,29 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
-    height: 100vh;
+    height: 100%;
 }
 
 .home__title {
     width: 100%;
     margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.home__title > .p1 {
+    font-size: 2rem;
+}
+
+.home__title > .p1 > em {
+    color: #4A148C;
 }
 
 .home__levelOne {
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
 }
 
 .home__levelOne__sales {
@@ -79,7 +91,8 @@
 .home__levelOne > .home__levelOne__sales > .body > .details {
     /* display: flex; */
     margin-right: 10px;
-    width: 70px;
+    width: auto;
+    text-align: right;
 }
 
 .home__levelOne > .home__levelOne__sales > .body > .details > h2 {
@@ -130,7 +143,8 @@
 .home__levelOne > .home__levelOne__revenue > .body > .details {
     /* display: flex; */
     margin-right: 10px;
-    width: 70px;
+    width: auto;
+    text-align: right;
 }
 
 .home__levelOne > .home__levelOne__revenue > .body > .details > h2 {
@@ -181,7 +195,8 @@
 .home__levelOne > .home__levelOne__inStock > .body > .details {
     /* display: flex; */
     margin-right: 10px;
-    width: 70px;
+    width: auto;
+    text-align: right;
 }
 
 .home__levelOne > .home__levelOne__inStock > .body > .details > h2 {
@@ -204,7 +219,7 @@
     margin-top: 10px;
     color: white;
     margin-bottom: 10px;
-    background-color: pink;
+    background-color: #00E676;
 }
 
 .home__levelOne > .home__levelOne__orders > .body {
@@ -232,9 +247,232 @@
 .home__levelOne > .home__levelOne__orders > .body > .details {
     /* display: flex; */
     margin-right: 10px;
-    width: 70px;
+    width: auto;
+    text-align: right;
 }
 
 .home__levelOne > .home__levelOne__orders > .body > .details > h2 {
-    color: pink;
+    color: #00E676;
+}
+
+.home__levelOne__products {
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    height: 130px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.home__levelOne > .home__levelOne__products > .head > .label {
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    margin-top: 10px;
+    color: white;
+    margin-bottom: 10px;
+    background-color: #64DD17;
+}
+
+.home__levelOne > .home__levelOne__products > .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home__levelOne > .home__levelOne__products > .body > .imageHolder {
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #bfbfbf;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.home__levelOne > .home__levelOne__products > .body > .imageHolder > img {
+    /* object-fit: contain; */
+    height: 35px;
+    width: 35px;
+    text-align: center;
+}
+
+.home__levelOne > .home__levelOne__products > .body > .details {
+    /* display: flex; */
+    margin-right: 10px;
+    width: auto;
+    text-align: right;
+}
+
+.home__levelOne > .home__levelOne__products > .body > .details > h2 {
+    color: #64DD17;
+}
+
+.home__levelOne__stockvalue {
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    height: 130px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.home__levelOne > .home__levelOne__stockvalue > .head > .label {
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    margin-top: 10px;
+    color: white;
+    margin-bottom: 10px;
+    background-color: #01579B;
+}
+
+.home__levelOne > .home__levelOne__stockvalue > .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home__levelOne > .home__levelOne__stockvalue > .body > .imageHolder {
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #bfbfbf;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.home__levelOne > .home__levelOne__stockvalue > .body > .imageHolder > img {
+    /* object-fit: contain; */
+    height: 35px;
+    width: 35px;
+    text-align: center;
+}
+
+.home__levelOne > .home__levelOne__stockvalue> .body > .details {
+    /* display: flex; */
+    margin-right: 10px;
+    width: auto;
+    text-align: right;
+}
+
+.home__levelOne > .home__levelOne__stockvalue > .body > .details > h2 {
+    color: #01579B;
+}
+
+
+.home__levelOne__zeroStock {
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    height: 130px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.home__levelOne > .home__levelOne__zeroStock > .head > .label {
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    margin-top: 10px;
+    color: white;
+    margin-bottom: 10px;
+    background-color: #FF1744;
+}
+
+.home__levelOne > .home__levelOne__zeroStock > .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home__levelOne > .home__levelOne__zeroStock > .body > .imageHolder {
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #bfbfbf;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.home__levelOne > .home__levelOne__zeroStock > .body > .imageHolder > img {
+    /* object-fit: contain; */
+    height: 35px;
+    width: 35px;
+    text-align: center;
+}
+
+.home__levelOne > .home__levelOne__zeroStock > .body > .details {
+    /* display: flex; */
+    margin-right: 10px;
+    width: auto;
+    text-align: right;
+}
+
+.home__levelOne > .home__levelOne__zeroStock > .body > .details > h2 {
+    color: #FF1744;
+}
+
+.home__levelOne__weather {
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    height: 130px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.home__levelOne > .home__levelOne__weather > .head > .label {
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    margin-top: 10px;
+    color: white;
+    margin-bottom: 10px;
+    background-color: #C51162;
+}
+
+.home__levelOne > .home__levelOne__weather > .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home__levelOne > .home__levelOne__weather > .body > .imageHolder {
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #bfbfbf;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.home__levelOne > .home__levelOne__weather > .body > .imageHolder > img {
+    /* object-fit: contain; */
+    height: 35px;
+    width: 35px;
+    text-align: center;
+}
+
+.home__levelOne > .home__levelOne__weather > .body > .details {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    width: auto;
+    text-align: right;
+}
+
+.home__levelOne > .home__levelOne__weather > .body > .details > h2 {
+    color: #C51162;
+}
+
+.home__leveltwo {
+    display: flex;
+    /* padding: 20px; */
+}
+
+.home__levelthree {
+    display: flex;
+    margin-top: 30px;
+    background-color: white;
+    padding: 30px;
 }

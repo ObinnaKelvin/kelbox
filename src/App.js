@@ -21,7 +21,7 @@ function App() {
           <Route path="/team" component={Team}></Route>
         </Switch>
       </Router>
-      <p>Kelbox loading...</p>
+      {/* <p>Kelbox loading...</p> */}
     </div>
   );
 }

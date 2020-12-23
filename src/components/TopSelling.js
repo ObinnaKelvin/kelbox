@@ -29,17 +29,17 @@ function TopSelling() {
                     <div className="image">
                         <img src={perfume1} alt="eau de parfum"/>
                     </div>
-                    {/* <div className="details">
-                        <div className="title">Eau De Parfum</div>
+                    <div className="title">Eau De Parfum</div>
+                    <div className="details">
                         <div className="price">
-                            <h5>Price</h5>
-                            <h5>&#8358;1,500</h5>
+                            <p className="p1">Price</p>
+                            <p className="p2"><strong>&#8358;1,500</strong></p>
                         </div>
                         <div className="totalSales">
-                            <h5>Total Sales</h5>
-                            <h5>&#8358;1,790,500</h5>                            
+                            <p className="p1">Total Sales</p>
+                            <p className="p2"><strong>&#8358;1,790,500</strong></p>                            
                         </div>
-                    </div> */}
+                    </div>
                 </div>
             </div>
             

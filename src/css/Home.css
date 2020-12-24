@@ -476,3 +476,39 @@
     background-color: white;
     padding: 30px;
 }
+
+/* Media Queries */
+@media (max-width: 990px) {
+    .home {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .home__title {
+        width: auto;
+        /* margin-right: 20px; */
+        /* border: 1px solid red; */
+    }
+    .home__title > .p1 {
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+    }    
+    .home__levelOne__sales, .home__levelOne__revenue, .home__levelOne__inStock,
+    .home__levelOne__orders, .home__levelOne__products, .home__levelOne__stockvalue,
+    .home__levelOne__zeroStock
+     {
+        /* width: auto; */
+        margin-bottom: 20px;
+        /* border: 1px solid red; */
+    }
+    .home__levelOne {
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 0px;
+        padding: 0px;
+    }
+    .home__levelthree {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 10px;
+    }
+}

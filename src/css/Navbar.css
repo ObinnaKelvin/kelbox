@@ -98,3 +98,10 @@
   span {
     margin-left: 16px;
   }
+
+  @media (max-width: 990px) {
+    .navbar {
+        width: auto;
+        /* border: 1px solid red; */
+    }
+}

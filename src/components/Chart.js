@@ -28,7 +28,41 @@ function Chart() {
     return (
         <div className="chart">
             <h3>Last week overview</h3>
-            <div><Line data={chartData}/></div>
+            <div>
+                <Line 
+                    data={chartData}
+                    options={{
+                        responsive: true,
+                        // title: {text: 'THICKNESS SCALE', display:true},
+                        scales: {
+                            // yAxes: [
+                            //     {
+                            //         ticks: {
+                            //             autoSkip: true,
+                            //             maxTicksLimit: 10,
+                            //             beginAtZero: true
+                            //         },
+                            //         gridLines: {
+                            //             display: false
+                            //         }
+                            //     }
+                            // ],
+                            xAxes: [
+                                {
+                                    ticks: {
+                                        autoSkip: true,
+                                        maxTicksLimit: 10,
+                                        beginAtZero: true
+                                    },
+                                    gridLines: {
+                                        display: false
+                                    }
+                                }
+                            ]
+                        }
+                    }}
+                />
+            </div>
         </div>
     )
 }

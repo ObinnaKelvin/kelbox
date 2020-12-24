@@ -117,7 +117,7 @@ function Home() {
             </div>
 
             <div className="home__leveltwo">
-                <Chart />
+                {/* <Chart /> */}
             </div>
 
             <div className="home__levelthree">

@@ -79,3 +79,29 @@
 .topSelling > .body > .product > .details > .totalSales > .p2 {
     color: black;    
 }
+
+/* Media Queries */
+
+@media (max-width: 990px) {
+    .topSelling {
+        width: auto;
+        /* border: 1px solid red; */
+        margin: 0px;
+        padding: 0px;
+    }
+    .topSelling > .title {
+        text-align: center;
+    }
+    .topSelling > .body {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .topSelling > .body > .product {
+        padding: 10px;
+        width: 250px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+}

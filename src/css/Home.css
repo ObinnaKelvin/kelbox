@@ -494,15 +494,15 @@
     }    
     .home__levelOne__sales, .home__levelOne__revenue, .home__levelOne__inStock,
     .home__levelOne__orders, .home__levelOne__products, .home__levelOne__stockvalue,
-    .home__levelOne__zeroStock
+    .home__levelOne__zeroStock, .home__levelOne__weather
      {
-        /* width: auto; */
+        width: auto;
         margin-bottom: 20px;
         /* border: 1px solid red; */
     }
     .home__levelOne {
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: 1fr;
         margin-top: 0px;
         padding: 0px;
     }

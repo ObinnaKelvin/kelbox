@@ -8,7 +8,7 @@ import products from '../img/products.png';
 import stockvalue from '../img/stockvalue.png';
 import zerostock from '../img/zerostock.png';
 import weather from '../img/weather.png';
-import Chart from '../components/Chart';
+// import Chart from '../components/Chart';
 import TopSelling from '../components/TopSelling';
 
 function Home() {

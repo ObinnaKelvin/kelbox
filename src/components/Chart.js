@@ -7,11 +7,11 @@ function Chart() {
 
     const chart = () => {
         setChartData({
-            labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+            labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
             datasets: [
                 {
                     label: 'Sales for Last Week',
-                    data: [500567, 825000, 1065550, 678400, 724500, 320240, 0],
+                    data: [500567, 825000, 1065550, 678400, 724500],
                     backgroundColor: [
                         'rgba(225, 190, 231, 1)'
                     ],

@@ -7,7 +7,7 @@ function Chart() {
 
     const chart = () => {
         setChartData({
-            labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+            labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
             datasets: [
                 {
                     label: 'Sales for Last Week',

@@ -1,0 +1,122 @@
+.products {
+    /* background-color: #ECEFF1; */
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 100%;    
+}
+
+.products > .products__levelOne {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.products > .products__levelOne > .productsIn {
+    background-color: #AA00FF;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.products > .products__levelOne > .productsIn > .icon  {
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.products > .products__levelOne > .productsIn > .icon > img {
+    height: 35px;
+    width: 35px;
+    text-align: center;
+}
+
+.products > .products__levelOne > .productsIn > .figures {
+    color: white;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.products > .products__levelOne > .productsInStock {
+    background-color: #D500F9;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.products > .products__levelOne > .productsInStock > .icon  {
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.products > .products__levelOne > .productsInStock > .icon > img {
+    height: 35px;
+    width: 35px;
+    text-align: center;
+}
+
+.products > .products__levelOne > .productsInStock > .figures {
+    color: white;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+@media (max-width: 990px) {
+
+    .products > .products__levelOne > .productsIn {
+        background-color: #AA00FF;
+        width: 150px;
+        height: 150px;
+        /* margin-right: 20px; */
+        padding: 20px;
+        color: white;
+        text-align: center;
+    }
+
+    .products > .products__levelOne > .productsIn > .icon > img {
+        height: 25px;
+        width: 25px;
+        text-align: center;
+    }
+
+    .products > .products__levelOne > .productsIn > .figures {
+        font-size: 27px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .products > .products__levelOne > .productsInStock {
+        background-color: #D500F9;
+        width: 150px;
+        height: 150px;
+        /* margin-left: 20px; */
+        padding: 20px;
+        color: white;
+        text-align: center;
+    }
+
+    .products > .products__levelOne > .productsInStock > .icon > img {
+        height: 25px;
+        width: 25px;
+        text-align: center;
+    }
+
+    .products > .products__levelOne > .productsInStock > .figures {
+        font-size: 27px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+}

@@ -8,7 +8,7 @@ import products from '../img/products.png';
 import stockvalue from '../img/stockvalue.png';
 import zerostock from '../img/zerostock.png';
 import weather from '../img/weather.png';
-// import Chart from '../components/Chart';
+import Chart from '../components/Chart';
 import TopSelling from '../components/TopSelling';
 
 function Home() {
@@ -21,7 +21,7 @@ function Home() {
             <div className="home__levelOne">
                 <div className="home__levelOne__sales">
                     <div className="head">
-                        <div className="label"><small>This Month</small></div>                    
+                        <div className="label"><small>Today</small></div>                    
                     </div>
                     <div className="body">
                         <div className="imageHolder">
@@ -32,7 +32,7 @@ function Home() {
                 </div>
                 <div className="home__levelOne__revenue">
                     <div className="head">
-                        <div className="label"><small>This Month</small></div>                    
+                        <div className="label"><small>Today</small></div>                    
                     </div>
                     <div className="body">
                         <div className="imageHolder">
@@ -43,7 +43,7 @@ function Home() {
                 </div>
                 <div className="home__levelOne__inStock">
                     <div className="head">
-                        <div className="label"><small>This Month</small></div>                    
+                        <div className="label"><small>Today</small></div>                    
                     </div>
                     <div className="body">
                         <div className="imageHolder">
@@ -54,7 +54,7 @@ function Home() {
                 </div>
                 <div className="home__levelOne__orders">
                     <div className="head">
-                        <div className="label"><small>This Month</small></div>                    
+                        <div className="label"><small>Today</small></div>                    
                     </div>
                     <div className="body">
                         <div className="imageHolder">
@@ -109,7 +109,7 @@ function Home() {
                         </div>
                         <div className="details">
                             <h2>20 &#176;c</h2>
-                            <small>Light rain showers</small>
+                            <small><em>Light rain showers</em></small>
                             Lagos
                         </div>
                     </div>
@@ -117,7 +117,7 @@ function Home() {
             </div>
 
             <div className="home__leveltwo">
-                {/* <Chart /> */}
+                <Chart />
             </div>
 
             <div className="home__levelthree">

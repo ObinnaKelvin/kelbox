@@ -1,5 +1,7 @@
 import React from 'react';
 import '../css/Home.css';
+// import numeral from 'numeral';
+import CountUp from 'react-countup';
 import sales from '../img/sales.png';
 import revenue from '../img/revenue.png';
 import instock from '../img/instock.png';
@@ -27,7 +29,7 @@ function Home() {
                         <div className="imageHolder">
                             <img src={sales} alt="sales icon"/>
                         </div>
-                        <div className="details"><h2>8,475</h2>Sales</div>
+                        <div className="details"><h2><CountUp end={8475} duration={5} separator=","/></h2>Sales</div>
                     </div>
                 </div>
                 <div className="home__levelOne__revenue">
@@ -38,7 +40,7 @@ function Home() {
                         <div className="imageHolder">
                             <img src={revenue} alt="revenue icon"/>
                         </div>
-                        <div className="details"><h2>&#8358;1,008,475</h2>Revenue</div>
+                        <div className="details"><h2><CountUp end={1008475} duration={5} separator="," prefix="₦"/></h2>Revenue</div>
                     </div>
                 </div>
                 <div className="home__levelOne__inStock">
@@ -49,7 +51,7 @@ function Home() {
                         <div className="imageHolder">
                             <img src={instock} alt="in stock icon"/>
                         </div>
-                        <div className="details"><h2>700,475</h2>In Stock</div>
+                        <div className="details"><h2><CountUp end={700475} duration={5} separator=","/></h2>In Stock</div>
                     </div>
                 </div>
                 <div className="home__levelOne__orders">
@@ -60,7 +62,7 @@ function Home() {
                         <div className="imageHolder">
                             <img src={orders} alt="revenue icon"/>
                         </div>
-                        <div className="details"><h2>208,475</h2>Orders</div>
+                        <div className="details"><h2><CountUp end={208475} duration={5} separator=","/></h2>Orders</div>
                     </div>
                 </div>
             </div>
@@ -74,7 +76,7 @@ function Home() {
                         <div className="imageHolder">
                             <img src={products} alt="products icon"/>
                         </div>
-                        <div className="details"><h2>25</h2>Products</div>
+                        <div className="details"><h2><CountUp end={25} duration={5} separator=","/></h2>Products</div>
                     </div>
                 </div>
                 <div className="home__levelOne__stockvalue">
@@ -85,7 +87,7 @@ function Home() {
                         <div className="imageHolder">
                             <img src={stockvalue} alt="stockvalue icon"/>
                         </div>
-                        <div className="details"><h2>&#8358;11,258,475</h2>Stock Value</div>
+                        <div className="details"><h2><CountUp end={11258475} duration={5} separator="," prefix="₦"/></h2>Stock Value</div>
                     </div>
                 </div>
                 <div className="home__levelOne__zeroStock">
@@ -96,7 +98,7 @@ function Home() {
                         <div className="imageHolder">
                             <img src={zerostock} alt="zero stock icon"/>
                         </div>
-                        <div className="details"><h2>0</h2>Zero Stock</div>
+                        <div className="details"><h2><CountUp end={0} duration={5} separator=","/></h2>Zero Stock</div>
                     </div>
                 </div>
                 <div className="home__levelOne__weather">

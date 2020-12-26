@@ -14,7 +14,7 @@
 }
 
 .products > .products__levelOne > .productsIn {
-    background-color: #AA00FF;
+    background-color: #4A148C;
     border-radius: 20px;
     width: 200px;
     height: 200px;
@@ -44,7 +44,7 @@
 }
 
 .products > .products__levelOne > .productsInStock {
-    background-color: #AA00FF;
+    background-color: #4A148C;
     border-radius: 20px;
     width: 200px;
     height: 200px;

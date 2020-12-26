@@ -73,10 +73,17 @@
     text-align: center;
 }
 
+.products > .products__levelTwo {
+    margin-top: 30px;
+    justify-items: center;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 @media (max-width: 990px) {
 
     .products > .products__levelOne > .productsIn {
-        background-color: #AA00FF;
         width: 150px;
         height: 150px;
         /* margin-right: 20px; */
@@ -98,7 +105,6 @@
     }
 
     .products > .products__levelOne > .productsInStock {
-        background-color: #AA00FF;
         width: 150px;
         height: 150px;
         /* margin-left: 20px; */
@@ -117,6 +123,14 @@
         font-size: 27px;
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+
+    .products > .products__levelTwo {
+        margin-top: 30px;
+        justify-items: center;
+        padding: 1px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     
 }

@@ -29,7 +29,7 @@ function Home() {
                         <div className="imageHolder">
                             <img src={sales} alt="sales icon"/>
                         </div>
-                        <div className="details"><h2><CountUp end={8475} duration={5} separator=","/></h2>Sales</div>
+                        <div className="details"><h2><CountUp end={8475} duration={3} separator=","/></h2>Sales</div>
                     </div>
                 </div>
                 <div className="home__levelOne__revenue">
@@ -40,7 +40,7 @@ function Home() {
                         <div className="imageHolder">
                             <img src={revenue} alt="revenue icon"/>
                         </div>
-                        <div className="details"><h2><CountUp end={1008475} duration={5} separator="," prefix="₦"/></h2>Revenue</div>
+                        <div className="details"><h2><CountUp end={1008475} duration={3} separator="," prefix="₦"/></h2>Revenue</div>
                     </div>
                 </div>
                 <div className="home__levelOne__inStock">
@@ -51,7 +51,7 @@ function Home() {
                         <div className="imageHolder">
                             <img src={instock} alt="in stock icon"/>
                         </div>
-                        <div className="details"><h2><CountUp end={700475} duration={5} separator=","/></h2>In Stock</div>
+                        <div className="details"><h2><CountUp end={700475} duration={3} separator=","/></h2>In Stock</div>
                     </div>
                 </div>
                 <div className="home__levelOne__orders">
@@ -62,7 +62,7 @@ function Home() {
                         <div className="imageHolder">
                             <img src={orders} alt="revenue icon"/>
                         </div>
-                        <div className="details"><h2><CountUp end={208475} duration={5} separator=","/></h2>Orders</div>
+                        <div className="details"><h2><CountUp end={208475} duration={3} separator=","/></h2>Orders</div>
                     </div>
                 </div>
             </div>
@@ -76,7 +76,7 @@ function Home() {
                         <div className="imageHolder">
                             <img src={products} alt="products icon"/>
                         </div>
-                        <div className="details"><h2><CountUp end={25} duration={5} separator=","/></h2>Products</div>
+                        <div className="details"><h2><CountUp end={25} duration={3} separator=","/></h2>Products</div>
                     </div>
                 </div>
                 <div className="home__levelOne__stockvalue">
@@ -87,7 +87,7 @@ function Home() {
                         <div className="imageHolder">
                             <img src={stockvalue} alt="stockvalue icon"/>
                         </div>
-                        <div className="details"><h2><CountUp end={11258475} duration={5} separator="," prefix="₦"/></h2>Stock Value</div>
+                        <div className="details"><h2><CountUp end={11258475} duration={3} separator="," prefix="₦"/></h2>Stock Value</div>
                     </div>
                 </div>
                 <div className="home__levelOne__zeroStock">
@@ -98,7 +98,7 @@ function Home() {
                         <div className="imageHolder">
                             <img src={zerostock} alt="zero stock icon"/>
                         </div>
-                        <div className="details"><h2><CountUp end={0} duration={5} separator=","/></h2>Zero Stock</div>
+                        <div className="details"><h2><CountUp end={0} duration={3} separator=","/></h2>Zero Stock</div>
                     </div>
                 </div>
                 <div className="home__levelOne__weather">

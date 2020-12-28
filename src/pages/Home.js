@@ -76,7 +76,7 @@ function Home() {
                         <div className="imageHolder">
                             <img src={products} alt="products icon"/>
                         </div>
-                        <div className="details"><h2><CountUp end={25} duration={3} separator=","/></h2>Products</div>
+                        <div className="details"><h2><CountUp end={8} duration={3} separator=","/></h2>Products</div>
                     </div>
                 </div>
                 <div className="home__levelOne__stockvalue">

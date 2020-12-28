@@ -15,8 +15,83 @@
     color: #fff;
   } */
 
+  .navbar > .navbar__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /* border: 1px solid green; */
+  }
+
+  .navbar > .navbar__items > .right {
+    margin-top: 7px;
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    /* width: 200px; */
+    /* border: 1px solid red; */
+  }
+
+  .navbar > .navbar__items > .right > .notifications {
+    margin-right: 27px;
+    font-size: 1.9rem;
+    display: flex;
+    text-decoration: none;
+  }
+
+  .navbar > .navbar__items > .right > .notifications > .count {
+    font-size: 0.9rem;
+    height: 19px;
+    width: 19px;
+    /* top: 0;
+    right: 0; */
+    border-radius: 50%;
+    color: white;
+    background-color: #4A148C;
+    position: absolute;
+    z-index: 1;
+    padding-top: 0.8px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+  }
+
+  .navbar > .navbar__items > .right > .cart {
+    margin-right: 27px;
+    font-size: 1.9rem;
+    display: flex;
+    text-decoration: none;
+  }
+
+  .navbar > .navbar__items > .right > .cart > .count {
+    font-size: 0.9rem;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    color: white;
+    background-color: #4A148C;
+    position: absolute;
+    z-index: 1;
+    padding-top: 0.6px;
+    padding-right: 4.5px;
+    padding-bottom: 5px;
+  }
+
+  .navbar > .navbar__items > .right > .user {
+    margin-right: 27px;
+    font-size: 1.9rem;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+  }
+
+  .navbar > .navbar__items > .right > .user > .status {
+    font-size: 0.9rem;
+    margin-left: -3px;
+  }
+
   .logo {
-      margin-left: 30px;
+      margin-top: 10px;
+      margin-left: 10px;
       font-size: 24px;
       font-weight: 400;
       color: #4A148C;
@@ -104,4 +179,20 @@
         width: auto;
         /* border: 1px solid red; */
     }
+
+    .navbar > .navbar__items > .right > .notifications {
+      margin-right: 15px;
+      font-size: 1.9rem;
+    }
+  
+    .navbar > .navbar__items > .right > .cart {
+      margin-right: 15px;
+      font-size: 1.9rem;
+    }
+  
+    .navbar > .navbar__items > .right > .user {
+      margin-right: 15px;
+      font-size: 1.9rem;
+    }
+  
 }

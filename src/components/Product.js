@@ -13,9 +13,9 @@ function Product({title, image, alt, price}) {
                     <p className="p1">Price</p>
                     <p className="p2"><strong>&#8358;{price}</strong></p>
                 </div>
-                <div className="addToCart">
+                <button className="addToCart">
                     <p className="p1">Add to Cart</p>                       
-                </div>
+                </button>
             </div>
         </div>
     )

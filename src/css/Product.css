@@ -29,17 +29,28 @@
 
 .product > .details {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.product > .details > .price > .p1 {
+    text-align: center;
+    display: none;
+}
+
+.product > .details > .price > .p2 {
+    text-align: center;
 }
 
 .product > .details > .addToCart {
     height: 30px;
-    width: 120px;
+    width: 100%;
     padding: 5px;
     background-color: #00E676;
     color: white;
+    margin-top: 10px;
     border-radius: 5px;
+    border: none;
 }
 
 .product > .details > .addToCart > .p1 {
@@ -59,10 +70,11 @@
     }   
     .product > .details > .addToCart {
         height: 25px;
-        width: 100px;
+        width: 100%;
         padding: 5px;
         background-color: #00E676;
         color: white;
+        margin-top: 10px;
         border-radius: 6px;
     }
     
@@ -72,6 +84,7 @@
     }
 
     .product > .details > .price > .p2 {
+        text-align: center;
         margin-top: 5px;
         margin-right: 4px;
         font-size: 13px;

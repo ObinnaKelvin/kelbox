@@ -22,7 +22,7 @@ function Products() {
                     <div className="icon">
                         <img src={products} alt="products icon" />
                     </div>
-                    <div className="figures">25</div>
+                    <div className="figures">8</div>
                     <p>Products</p>
                 </div>
                 <div className="productsInStock">

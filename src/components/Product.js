@@ -1,9 +1,11 @@
 import React from 'react';
 import '../css/Product.css';
 
-function Product({title, image, alt, price}) {
+function Product({title, image, alt, price, available}) {
     return (
         <div className="product">
+
+            <p><em>{available} cartons</em></p>
             <div className="image">
                 <img src={image} alt={alt}/>
             </div>

@@ -36,7 +36,7 @@ function Products() {
             <div className="products__levelTwo">
                 {
                     PerfumeData.map((item, key) => (
-                        <Product key={item.id} title={item.title} image={item.image} alt={item.alt} price={item.price} />
+                        <Product key={item.id} title={item.title} image={item.image} alt={item.alt} price={item.price} available={item.available}/>
                     ))
                 }
                 

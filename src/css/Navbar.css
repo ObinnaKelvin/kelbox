@@ -1,7 +1,7 @@
 .navbar {
     /* background-color: #060b26; */
     background-color:#fff;
-    height: 50px;
+    height: 60px;
     display: flex;
     /* justify-content: start; */
     justify-content: flex-start;
@@ -191,8 +191,12 @@
     }
   
     .navbar > .navbar__items > .right > .user {
-      margin-right: 15px;
+      margin-right: 10px;
       font-size: 1.9rem;
     }
-  
+
+    .navbar > .navbar__items > .right > .user > .status {
+      font-size: 0.8rem;
+      margin-left: -3px;
+    }
 }
